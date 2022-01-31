@@ -1,0 +1,40 @@
+.admin-box{
+    background-color:white;
+   padding: 50px;
+    width:30%;
+   margin: auto;
+    border-style: groove;
+    color: black;
+  
+  
+}
+.admin-box h1{
+    color: brown;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.admin-box form input{
+    width:90%;
+    margin: 4px auto;
+    
+  
+
+}
+body h1  {
+    color: aqua;
+}
+
+ 
+
+#btn{
+
+}
+.links{
+   text-align: center;
+     margin-top: 20px;
+.links a{
+    text-decoration: 10px;
+    color: rgb(8, 8, 8);
+}
