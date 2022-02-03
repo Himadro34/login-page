@@ -1,40 +1,75 @@
-.admin-box{
-    background-color:white;
-   padding: 50px;
-    width:30%;
-   margin: auto;
-    border-style: groove;
-    color: black;
-  
-  
-}
-.admin-box h1{
-    color: brown;
+.Admin-box{  
+    background-color: white;
+    padding: 10px;
+    width: 40%;
+    position: fixed;
+    top: 145px;
+    left: 550px;
     text-align: center;
-    font-size: 40px;
-}
-
-
-.admin-box form input{
-    width:90%;
-    margin: 4px auto;
+    border-style: outset;
     
-  
-
-}
-body h1  {
-    color: aqua;
 }
 
- 
-
+.Admin-box h1{
+    color: black;
+    font-size: 35px;
+    
+}
+.Admin-box form{
+    text-align: center;
+   
+}
+.Admin-box form input{
+    width: 80%;
+    margin: 8px auto;
+    padding: 7px;
+   border-radius: 5px;
+   border-color: antiquewhite;
+}
 #btn{
+    color: antiquewhite;
+    background-color: blue;
+    font-size: 20px;
+    border-radius: 5px;
 
 }
 .links{
-   text-align: center;
-     margin-top: 20px;
+    margin-top: 20px;
+}
 .links a{
-    text-decoration: 10px;
-    color: rgb(8, 8, 8);
+    text-decoration: none;
+    color: rgb(94, 4, 4);
+    font-size: 20px;
+
+}
+.links form a{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+   border: 2px solid gray;
+   
+
+}
+body{
+    background-color:aliceblue;
+}
+div.heading h1{
+    color: blue;
+    font-size: 45px;
+    position: fixed;
+    top: 150px;
+    left: 200px;
+
+}
+div.heading p{
+    position: fixed;
+    top: 213px;
+    left: 200px;
+    font-size:20px;
+}
+div.heading p2{
+    position: fixed;
+    top: 525px;
+    left: 610px;
 }

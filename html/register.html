@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IT-edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Creat an account </title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Account</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            border-style: inset;
+            
+            width: 35%;
+            position: fixed;
+            top: 80px;
+            left: 250px;
+        }
+        .head{
+            background-color: white;
+            padding: 30px;
+        }
+        .links a{
+            font-size: 20px;
+            
+            background-color: blue;
+            color: white;
+            padding: 4px;
+            width: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1>Create an account</h1>
        
-    </head>
-    <body>
-        <a href="../index.html">creat an account</a>
-       
-    </body>
-
-
-
+        <p>Enter the name you use in real life.</p>
+        <form>
+            <input type="text" placeholder=" First Name"> <input type="text" placeholder="Username">
+            <p> Enter your date of birth.</p>
+            <input type="date" placeholder="month"><br><hr>
+            <p>Enter the female or male.</p>
+            <h>Female</h>
+             <input type="checkbox"><br>
+             <h>Male</h><input type="checkbox"><br>
+             <h>Custom</h><input type="checkbox">
+           <hr>
+        
+        </form>
+        <div class="links">
+            <a href="../index.html">Submit</a>
+        </div>
+    </div>
+</body>
 </html>
